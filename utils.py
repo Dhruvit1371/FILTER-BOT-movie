@@ -706,7 +706,7 @@ async def get_cap(settings, remaining_seconds, files, query, total_results, sear
         cap+="<b><u>🍿 Your Movie Files 👇</u></b>\n\n"
         for file in files:
             cap += f"<b>📁 <a href='https://telegram.me/{temp.U_NAME}?start=files_{file['file_id']}'>[{get_size(file['file_size'])}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file['file_name'].split()))}\n\n</a></b>"
-            cap += "\n\n<b>👤 Requested by: <a href='https://t.me/dhruvit2053'>@dhruvit2053</a></b>"
+            cap += "\n\n@netflix_movie_times @dhruvit2053"
     return cap
 
 
