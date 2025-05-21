@@ -16,6 +16,15 @@ API_HASH = environ.get('API_HASH', 'ff0d341105cf6ea8d645ee555e33088a')
 BOT_TOKEN = environ.get('BOT_TOKEN', "7767687435:AAFJPQZ68D0uQ08l2UYqHzv3aXrpC_b9hcs")
 
 
+FOOTER = """
+➜ 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 @auth_Dhruvit
+➜ 𝐌𝐨𝐯𝐢𝐞𝐬  @netflix_movie_times
+➜ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 @Dhruvit_Support
+➜ �{P}𝐫𝐞𝐦𝐢𝐮𝐦 - 🔜 soon 
+
+♥️ 𝗧𝗲𝗮𝗺 ➜ @dhruvit2053
+"""
+
 # This Pictures Is For Start Message Picture, You Can Add Multiple By Giving One Space Between Each.
 PICS = (environ.get('PICS', 'https://ibb.co/jvRFSdCy')).split()
 
