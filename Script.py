@@ -246,14 +246,13 @@ Nᴀᴍᴇ - {}"""
 
     CAPTION = """<b>📂 ғɪʟᴇɴᴀᴍᴇ : {file_name}
 
-<b>⚙️ sɪᴢᴇ : {file_size}</b>""" 
-    FOOTER = """<b>
-➜ 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 @auth_Dhruvit
-➜ 𝐌𝐨𝐯𝐢𝐞𝐬  @netflix_movie_times
-➜ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 @Dhruvit_Support
-➜ 𝐏𝐫𝐞𝐦𝐢𝐮𝐦 - 🔜 soon 
+<b>⚙️ sɪᴢᴇ : {file_size}</b> 
+<b>➜ 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 @auth_Dhruvit</b> 
+<b>➜ 𝐌𝐨𝐯𝐢𝐞𝐬  @netflix_movie_times</b> 
+<b>➜ 𝐒𝐮𝐩𝐩𝐨𝐫𝐭 @Dhruvit_Support</b> 
+<b>➜ 𝐏𝐫𝐞𝐦𝐢𝐮𝐦 - 🔜 soon </b> 
 
-♥️ 𝗧𝗲𝗮𝗺 ➜ @dhruvit2053</b>"""
+<b>♥️ 𝗧𝗲𝗮𝗺 ➜ @dhruvit2053</b>"""
 
     
     IMDB_TEMPLATE_TXT = """
