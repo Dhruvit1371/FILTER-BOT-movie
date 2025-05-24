@@ -13,7 +13,7 @@ id_pattern = re.compile(r'^.\d+$')
 SESSION = environ.get('SESSION', 'Dhruvit')
 API_ID = int(environ.get('API_ID', '21267502'))
 API_HASH = environ.get('API_HASH', 'ff0d341105cf6ea8d645ee555e33088a')
-BOT_TOKEN = environ.get('BOT_TOKEN', "7767687435:AAFJPQZ68D0uQ08l2UYqHzv3aXrpC_b9hcs")
+BOT_TOKEN = environ.get('BOT_TOKEN', "7907954240:AAGwPzkHtMbyXN0PLSWj6yI7sTldZ7T_aZU")
 
 
 FOOTER = """
@@ -38,7 +38,7 @@ AUTH_USERS = (auth_users + ADMINS) if auth_users else []
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002582119529'))
 
 # This Is File Channel Where You Upload Your File Then Bot Automatically Save It In Database 
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002349178640').split()]  # For Multiple Id Use One Space Between Each.
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002648945328').split()]  # For Multiple Id Use One Space Between Each.
 
 # auth_channel means force subscribe channel.
 # if REQUEST_TO_JOIN_MODE is true then force subscribe work like request to join fsub, else if false then work like normal fsub.
@@ -68,7 +68,7 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Dhruvitnew:Dhruvit@dhruvitnew.yhidpd6.mongodb.net/?retryWrites=true&w=majority&appName=Dhruvitnew")   # IF Multiple Database Is False Then Fill Only This Database Url.
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Dhruvitmovie:Dhruvitmovie@cluster0.zcde1qd.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # IF Multiple Database Is False Then Fill Only This Database Url.
 DATABASE_NAME = environ.get('DATABASE_NAME', "Dhruvitnew")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Dhruvitnew')
 
