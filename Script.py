@@ -244,7 +244,7 @@ Nᴀᴍᴇ - {}"""
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b>📂 ғɪʟᴇɴᴀᴍᴇ : {file_name}
+    CAPTION = """<b>📂 @dhruvit2053 {file_name}
 
 <b>⚙️ sɪᴢᴇ : {file_size}</b> 
 <b>➜ 𝐔𝐩𝐝𝐚𝐭𝐞𝐬 @auth_Dhruvit</b> 
